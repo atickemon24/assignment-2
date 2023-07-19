@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .list-item{
+flex-direction: column;
+    }
+    .goat-container{
+        flex-direction: column-reverse;
+    }
+    .left-container{
+        width: 100%;
+    }
+    .right-container{
+        width:100%;
+        text-align: center;
+    }
+    .group18{
+        width: 300px;
+        height: 300px;
+        
+    }
+}

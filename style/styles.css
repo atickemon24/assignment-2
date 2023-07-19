@@ -9,6 +9,9 @@
     font-family: 'Work Sans', sans-serif;
 }
 /* nav desgin start  */
+header{
+    border-bottom: 1px solid #e1e1e180;
+}
 .nav-container{
     
     display: flex;
@@ -68,3 +71,75 @@ color: #3C354F;
     object-fit: cover;
 }
 /* nav desgin end  */
+/* GOAT SECTION  */
+.goat-container{
+    display: flex;
+}
+.left-container{
+    width: 50%;
+    background-image: url("/images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.right-container{
+    width: 50%;
+    color: #FFFFFF;
+}
+.goat-title{
+color: #0B0223;
+font-size: 2rem;
+font-weight: 600;
+text-transform: uppercase;
+}
+.goat{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 4rem;
+}
+.group18 {
+    width: 540px;
+    height: 500px;
+    padding-left: 30px;
+}
+.left-container {padding: 100px 5px 50px 241px;}
+.goat-p{
+color: #534C64;
+font-size: 1rem;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+}
+.goat-i{
+    width: 1rem;
+    height: 1rem;
+}
+.button{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.btn ,.btn-primary {
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    border: none;
+    background: #FF42A5;
+    color: white;
+}
+.btn-primary{
+    background-color: #4EC5F7;
+}
+img.goat-icon {
+    width: 1rem;
+}
+
+span.goat-p {
+    padding-left: 5px;
+    line-height: 2;
+}
+.hide{
+    display: none;
+}
