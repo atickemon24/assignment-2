@@ -27,6 +27,10 @@
 .logo-title{
     padding-left: 1rem;
     font-size: 2rem;
+    font-weight: 700;
+}
+.pink{
+    color: #FF42A5;
 }
 .items-container{
     width: 50%;
@@ -40,7 +44,7 @@
 }
 .list-item li{
     list-style: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 .list-item li a{
@@ -48,12 +52,19 @@ text-decoration: none;
 color: #3C354F;
 }
 .follow-us-on{
-    padding: 8px 30px;
+    padding: 7px 20px;
     border: none;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     display:flex;
     align-items: center;
     gap: 10px;
+}
+.icon-image{
+    width:20px;
+}
+.logo-icon {
+    width: 60px;
+    object-fit: cover;
 }
 /* nav desgin end  */
