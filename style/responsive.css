@@ -10,6 +10,8 @@ flex-direction: column;
     }
     .left-container{
         width: 100%;
+        margin: 0 auto;
+        
     }
     .right-container{
         width:100%;
@@ -19,5 +21,18 @@ flex-direction: column;
         width: 300px;
         height: 300px;
         
+    }
+    .bottom-container{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .card-title{
+        font-size: 2rem;
+    }
+    .color-title{
+    font-size: 2rem;
+    }
+    .gameing-banner{
+        flex-direction: column-reverse;
     }
 }
