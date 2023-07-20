@@ -1,4 +1,4 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width:576px){
     .nav-container{
         flex-direction: column;
     }
@@ -8,10 +8,10 @@ flex-direction: column;
     .goat-container{
         flex-direction: column-reverse;
     }
-    .left-container{
+    .left-container {
         width: 100%;
-        margin: 0 auto;
-        
+        padding: 20px;
+        margin: 10px 0px 20px 10px;
     }
     .right-container{
         width:100%;
@@ -35,4 +35,32 @@ flex-direction: column;
     .gameing-banner{
         flex-direction: column-reverse;
     }
+    .grid-names{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+    }
+    .grid-icon{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        margin-left: 60px;
+    }
+    .grid-terms{
+        display: grid;
+        grid-template-columns: repeat(2 ,2fr);
+    }
+    .gaming-discription{
+        margin: 40px 20px 20px 0px
+
+    }
+    .gameing-banner img{
+        margin:0 auto;
+    }
+    .small{
+        width: 170px;
+    }
+    .btn-container{
+        margin-top: 184px;
+    }
+
+
 }

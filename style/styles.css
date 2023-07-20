@@ -101,7 +101,9 @@ header {
 }
 
 .goat {
-    background: linear-gradient(rgb(249, 72, 178) 0%, rgb(135, 88, 241) 100%) text;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
 }
@@ -179,7 +181,9 @@ span.goat-p {
 }
 
 .color-title {
-    background: linear-gradient(rgb(249, 72, 178) 0%, rgb(135, 88, 241) 100%) text;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: "Work Sans";
     font-size: 2.4rem;
@@ -225,7 +229,7 @@ span.goat-p {
     align-items: baseline;
     justify-content: space-around;
     margin-bottom: 100px;
-    height: 500px;
+    height: 420px;
 }
 
 .big {
@@ -325,4 +329,43 @@ footer {
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+.btn-p{
+    padding: 10px 20px;
+}
+.btn-container{
+    display: flex;
+    padding: 100px;
+    background-color: #FFF9FC;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    background-color:#FFFFFF;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    border: 1px solid black;
+    border:none;
+}
+.single-btn:hover{
+    border: 1px solid #FF54AD;
+    color: #FF54AD;
+    border-radius: 60px;
+    transition: 0.3s;
+}
+.btn-flex img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p.btn-pra {
+    font-size: 0.8rem;
+    font-weight: 600;
 }
