@@ -1,4 +1,4 @@
-@media only screen and (max-width:576px){
+@media only screen and(max-width:576px){
     .nav-container{
         flex-direction: column;
     }
@@ -60,6 +60,9 @@ flex-direction: column;
     }
     .btn-container{
         margin-top: 184px;
+    }
+    footer{
+        width: 100%;
     }
 
 
